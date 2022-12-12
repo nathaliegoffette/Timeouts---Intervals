@@ -9,9 +9,9 @@ var display = function(i) {
 }
 display(0);
 */
+
+
 //exercice 2 : displays seconds and minutes on the screen
-
-
 let times = 0;
 
 function timePassedSeconds() {    
@@ -27,4 +27,7 @@ function timePassedMinutes() {
 setInterval(timePassedSeconds, 1000);
 
 setInterval(timePassedMinutes, 60000);
+
+
+
 
